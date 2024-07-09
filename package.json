@@ -1,0 +1,25 @@
+{
+  "name": "material-tracking-app",
+  "version": "1.0.0",
+  "description": "A simple material tracking app using Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "material",
+    "tracking"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "google-auth-library": "^9.11.0",
+    "googleapis": "^100.0.0",
+    "papaparse": "^5.4.1"
+  }
+}

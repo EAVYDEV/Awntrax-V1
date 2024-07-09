@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#refresh-button {
+  display: inline-flex;
+  align-items: center;
+}
+
+#refresh-button .fa-sync {
+  margin-left: 8px;
+}
+
+nav a.nav-link {
+  color: #007BFF;
+}
+
+nav a.nav-link:hover {
+  text-decoration: underline;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #e9ecef;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f3f5;
+}
+
+#refresh-timestamp {
+  color: #6c757d;
+  margin-top: 10px;
+}
+
+.qty-rec-input {
+  width: 50px; /* Adjust the width as needed */
+  max-width: 100%;
+  padding: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}

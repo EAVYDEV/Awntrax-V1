@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Settings - Material Tracking App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> &gt; <span>Settings</span>
+  </nav>
+  <h1>Settings</h1>
+  <form id="settings-form">
+    <label for="api-key">Google API Key:</label>
+    <input type="text" id="api-key" name="api-key" required>
+    <br><br>
+    <label for="spreadsheet-url">Spreadsheet URL:</label>
+    <input type="text" id="spreadsheet-url" name="spreadsheet-url" required>
+    <br><br>
+    <label for="spreadsheet-id">Spreadsheet ID:</label>
+    <input type="text" id="spreadsheet-id" name="spreadsheet-id" readonly>
+    <br><br>
+    <label for="sheet-page">Sheet Name:</label>
+    <input type="text" id="sheet-page" name="sheet-page" value="Sheet1" required>
+    <br><br>
+    <label for="qty-crosscheck">Enable QTY Crosscheck:</label>
+    <input type="checkbox" id="qty-crosscheck" name="qty-crosscheck">
+    <br><br>
+    <button type="submit">Save</button>
+  </form>
+  <p id="status-message"></p>
+  <script src="settings.js"></script>
+</body>
+</html>
